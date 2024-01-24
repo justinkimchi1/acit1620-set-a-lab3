@@ -31,11 +31,34 @@ form button {
 /* HEADER STYLES */ 
 header {
     background-color: teal;
-    color: white;
+    color: black;
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    color: teal;
+    
+}
 
+ul li {
+    margin-bottom: 20px;
+}
+
+.img {
+    float: left;
+    width: 10rem;
+    height: 8rem;
+    margin-right: 1rem;
+}
  
+
+.footer p{
+    text-align: center;
+    background-color: teal;
+    color: white;
+}
