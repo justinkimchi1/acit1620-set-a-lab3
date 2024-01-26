@@ -39,17 +39,19 @@ header {
 
 ul {
     list-style-type: none;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
     text-align: right;
     color: teal;
-    
+        
 }
 
 ul li {
     margin-bottom: 20px;
 }
 
-.img {
+.img, ul{
     float: left;
     width: 10rem;
     height: 8rem;
@@ -57,8 +59,11 @@ ul li {
 }
  
 
-.footer p{
+
+footer p{
     text-align: center;
+    margin-top: 20rem;
+    padding: 14px;
     background-color: teal;
     color: white;
 }
