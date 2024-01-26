@@ -44,20 +44,45 @@ ul {
     width: 8rem;
     text-align: right;
     color: teal;
-        
+    /* box-sizing: border-box;
+    width: 70%; */
+    border: solid pink;
+    
 }
 
 ul li {
     margin-bottom: 20px;
 }
 
-.img, ul{
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: teal;
+}
+
+a:visited {
+    color: teal;
+}
+
+.img {
     float: left;
     width: 10rem;
     height: 8rem;
     margin-right: 1rem;
+    
 }
  
+main {
+    text-align: justify;
+    float: left;
+    margin-left: 13rem;
+    margin-top: -8.5rem;
+    margin-right: 2rem;
+}
+
+
 
 
 footer p{
@@ -67,3 +92,10 @@ footer p{
     background-color: teal;
     color: white;
 }
+
+h2{
+    border: solid pink;
+    display: flex;
+
+}
+
