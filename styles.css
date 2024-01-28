@@ -101,9 +101,11 @@ form label{
 }
 
 @media only screen and (max-width: 600px) {
-    ul {
+    ul, li, main{
         display: flex;
         flex-direction: row; 
-        
+        width: 50%;
+        border: solid yellow;
     }
 }
+
